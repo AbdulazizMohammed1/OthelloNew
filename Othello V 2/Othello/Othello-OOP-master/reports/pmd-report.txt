@@ -1,0 +1,647 @@
+src/core/Board.java:9:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	ClassWithOnlyPrivateConstructorsShouldBeFinal: A class which only has private constructors should be final
+src/core/Board.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/core/Board.java:9:	CyclomaticComplexity:	CyclomaticComplexity: The class 'Board' has a total cyclomatic complexity of 158 (highest 13).
+src/core/Board.java:9:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The class 'Board' has a Modified Cyclomatic Complexity of 4 (Highest = 11).
+src/core/Board.java:9:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The class 'Board' has a Standard Cyclomatic Complexity of 4 (Highest = 11).
+src/core/Board.java:9:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/core/Board.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:10:	FieldNamingConventions:	FieldNamingConventions: The static field name 'DARK' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Board.java:10:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Board.java:10:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'DARK' starts with uppercase character.
+src/core/Board.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:11:	FieldNamingConventions:	FieldNamingConventions: The static field name 'LIGHT' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Board.java:11:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Board.java:11:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'LIGHT' starts with uppercase character.
+src/core/Board.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:13:	FieldNamingConventions:	FieldNamingConventions: The static field name 'PLAYER_ONE' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Board.java:13:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'PLAYER_ONE'
+src/core/Board.java:13:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Board.java:13:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'PLAYER_ONE' is not final.
+src/core/Board.java:13:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'PLAYER_ONE' starts with uppercase character.
+src/core/Board.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:14:	FieldNamingConventions:	FieldNamingConventions: The static field name 'PLAYER_TWO' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Board.java:14:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Board.java:14:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'PLAYER_TWO' is not final.
+src/core/Board.java:14:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'PLAYER_TWO' starts with uppercase character.
+src/core/Board.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:15:	FieldNamingConventions:	FieldNamingConventions: The static field name 'ROWS' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Board.java:15:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Board.java:15:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'ROWS' starts with uppercase character.
+src/core/Board.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:16:	FieldNamingConventions:	FieldNamingConventions: The static field name 'COLUMNS' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Board.java:16:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Board.java:16:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'COLUMNS' starts with uppercase character.
+src/core/Board.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:17:	FieldNamingConventions:	FieldNamingConventions: The static field name 'MAXIMUM_PLAYERS' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Board.java:17:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Board.java:17:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'MAXIMUM_PLAYERS' is not final.
+src/core/Board.java:17:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'MAXIMUM_PLAYERS' starts with uppercase character.
+src/core/Board.java:18:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/core/Board.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:21:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/core/Board.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Board.java:23:	FieldNamingConventions:	FieldNamingConventions: The static field name 'single_instance' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Board.java:23:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'single_instance'
+src/core/Board.java:23:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'single_instance' is not final.
+src/core/Board.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:32:	NonThreadSafeSingleton:	NonThreadSafeSingleton: Singleton is not thread safe
+src/core/Board.java:39:	MethodReturnsInternalArray:	MethodReturnsInternalArray: Returning 'board' may expose an internal array.
+src/core/Board.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/core/Board.java:43:	UseVarargs:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/core/Board.java:45:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:47:	ArrayIsStoredDirectly:	ArrayIsStoredDirectly: The user-supplied array 'board' is stored directly.
+src/core/Board.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'players' is not assigned and could be declared final
+src/core/Board.java:58:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:90:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'darkCount' is not assigned and could be declared final
+src/core/Board.java:98:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'lightCount' is not assigned and could be declared final
+src/core/Board.java:102:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:120:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:120:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'darkCount' is not assigned and could be declared final
+src/core/Board.java:120:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'lightCount' is not assigned and could be declared final
+src/core/Board.java:123:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Board.java:124:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Board.java:129:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:129:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkUp(int, int, Color)' has a cyclomatic complexity of 12.
+src/core/Board.java:129:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'col' is not assigned and could be declared final
+src/core/Board.java:129:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:131:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:134:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:136:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '136'-'146').
+src/core/Board.java:136:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '136'-'169').
+src/core/Board.java:139:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '139'-'162').
+src/core/Board.java:139:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '139'-'166').
+src/core/Board.java:144:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:145:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/core/Board.java:146:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '146'-'146').
+src/core/Board.java:146:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '146'-'169').
+src/core/Board.java:157:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'row'
+src/core/Board.java:172:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:172:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkUpLeft(int, int, Color)' has a cyclomatic complexity of 13.
+src/core/Board.java:172:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:174:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:177:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:180:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '180'-'191').
+src/core/Board.java:180:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '180'-'216').
+src/core/Board.java:184:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '184'-'209').
+src/core/Board.java:184:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '184'-'213').
+src/core/Board.java:189:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:190:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/core/Board.java:191:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '191'-'191').
+src/core/Board.java:191:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '191'-'216').
+src/core/Board.java:203:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'row'
+src/core/Board.java:204:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'col'
+src/core/Board.java:219:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:219:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkLeft(int, int, Color)' has a cyclomatic complexity of 12.
+src/core/Board.java:219:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:219:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'row' is not assigned and could be declared final
+src/core/Board.java:221:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:224:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:227:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '227'-'237').
+src/core/Board.java:227:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '227'-'260').
+src/core/Board.java:230:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '230'-'253').
+src/core/Board.java:230:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '230'-'257').
+src/core/Board.java:235:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:236:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/core/Board.java:237:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '237'-'237').
+src/core/Board.java:237:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '237'-'260').
+src/core/Board.java:248:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'col'
+src/core/Board.java:263:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:263:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkDownLeft(int, int, Color)' has a cyclomatic complexity of 13.
+src/core/Board.java:263:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:265:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:268:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:271:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '271'-'282').
+src/core/Board.java:271:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '271'-'307').
+src/core/Board.java:275:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '275'-'300').
+src/core/Board.java:275:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '275'-'304').
+src/core/Board.java:277:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/core/Board.java:280:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:281:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/core/Board.java:282:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '282'-'282').
+src/core/Board.java:282:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '282'-'307').
+src/core/Board.java:294:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'row'
+src/core/Board.java:295:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'col'
+src/core/Board.java:310:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:310:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkDown(int, int, Color)' has a cyclomatic complexity of 12.
+src/core/Board.java:310:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'col' is not assigned and could be declared final
+src/core/Board.java:310:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:312:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:315:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:318:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '318'-'328').
+src/core/Board.java:318:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '318'-'351').
+src/core/Board.java:321:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '321'-'344').
+src/core/Board.java:321:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '321'-'348').
+src/core/Board.java:326:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:327:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/core/Board.java:328:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '328'-'328').
+src/core/Board.java:328:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '328'-'351').
+src/core/Board.java:339:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'row'
+src/core/Board.java:354:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:354:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkDownRight(int, int, Color)' has a cyclomatic complexity of 13.
+src/core/Board.java:354:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:356:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:359:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:361:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '361'-'372').
+src/core/Board.java:361:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '361'-'397').
+src/core/Board.java:365:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '365'-'390').
+src/core/Board.java:365:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '365'-'394').
+src/core/Board.java:367:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/core/Board.java:370:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:371:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/core/Board.java:372:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '372'-'372').
+src/core/Board.java:372:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '372'-'397').
+src/core/Board.java:384:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'row'
+src/core/Board.java:385:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'col'
+src/core/Board.java:400:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:400:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkRight(int, int, Color)' has a cyclomatic complexity of 12.
+src/core/Board.java:400:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:400:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'row' is not assigned and could be declared final
+src/core/Board.java:402:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:405:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:408:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '408'-'418').
+src/core/Board.java:408:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '408'-'441').
+src/core/Board.java:411:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '411'-'434').
+src/core/Board.java:411:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '411'-'438').
+src/core/Board.java:416:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:417:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/core/Board.java:418:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '418'-'418').
+src/core/Board.java:418:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '418'-'441').
+src/core/Board.java:429:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'col'
+src/core/Board.java:444:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:444:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkUpRight(int, int, Color)' has a cyclomatic complexity of 13.
+src/core/Board.java:444:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:446:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:449:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:452:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '452'-'463').
+src/core/Board.java:452:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '452'-'488').
+src/core/Board.java:456:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '456'-'481').
+src/core/Board.java:456:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '456'-'485').
+src/core/Board.java:461:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:462:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/core/Board.java:463:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'flpsquare' (lines '463'-'463').
+src/core/Board.java:463:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'flpsquare' (lines '463'-'488').
+src/core/Board.java:475:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'row'
+src/core/Board.java:476:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'col'
+src/core/Board.java:490:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:491:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Board.java:491:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Board.java:495:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:495:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:497:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:500:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'gameover' (lines '500'-'503').
+src/core/Board.java:500:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'gameover' (lines '500'-'507').
+src/core/Board.java:504:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:513:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:513:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:515:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:532:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:532:	CyclomaticComplexity:	CyclomaticComplexity: The method 'isValidMove(int, int, Color)' has a cyclomatic complexity of 12.
+src/core/Board.java:532:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'col' is not assigned and could be declared final
+src/core/Board.java:532:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/core/Board.java:532:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'row' is not assigned and could be declared final
+src/core/Board.java:532:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The method 'isValidMove' has a Modified Cyclomatic Complexity of 11.
+src/core/Board.java:532:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The method 'isValidMove' has a Standard Cyclomatic Complexity of 11.
+src/core/Board.java:534:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:537:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '537'-'540').
+src/core/Board.java:537:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '537'-'542').
+src/core/Board.java:537:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '537'-'544').
+src/core/Board.java:537:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '537'-'546').
+src/core/Board.java:537:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '537'-'548').
+src/core/Board.java:537:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '537'-'550').
+src/core/Board.java:537:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '537'-'552').
+src/core/Board.java:537:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvalid' (lines '537'-'554').
+src/core/Board.java:567:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:567:	MissingOverride:	MissingOverride: The method 'hashCode()' is missing an @Override annotation.
+src/core/Board.java:568:	AvoidFinalLocalVariable:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/core/Board.java:576:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Board.java:576:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/core/Board.java:576:	MissingOverride:	MissingOverride: The method 'equals(Object)' is missing an @Override annotation.
+src/core/Board.java:578:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Board.java:581:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:584:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Board.java:586:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/core/Disc.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/core/Disc.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/core/Disc.java:7:	ShortClassName:	ShortClassName: Avoid short class names like Disc
+src/core/Disc.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Disc.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'discColor' is not assigned and could be declared final
+src/core/Disc.java:18:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Disc.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Disc.java:24:	MissingOverride:	MissingOverride: The method 'hashCode()' is missing an @Override annotation.
+src/core/Disc.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Disc.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/core/Disc.java:29:	MissingOverride:	MissingOverride: The method 'equals(Object)' is missing an @Override annotation.
+src/core/Disc.java:31:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Disc.java:34:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Disc.java:37:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Disc.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/core/Disc.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Disc.java:43:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/core/Game.java:21:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	ClassWithOnlyPrivateConstructorsShouldBeFinal: A class which only has private constructors should be final
+src/core/Game.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/core/Game.java:21:	ShortClassName:	ShortClassName: Avoid short class names like Game
+src/core/Game.java:21:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/core/Game.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:23:	FieldNamingConventions:	FieldNamingConventions: The static field name 'MAXIMUM_PLAYERS' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Game.java:23:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Game.java:23:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'MAXIMUM_PLAYERS' is not final.
+src/core/Game.java:23:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'MAXIMUM_PLAYERS' starts with uppercase character.
+src/core/Game.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:25:	FieldNamingConventions:	FieldNamingConventions: The static field name 'PLAYER_ONE' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Game.java:25:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'PLAYER_ONE'
+src/core/Game.java:25:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Game.java:25:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'PLAYER_ONE' is not final.
+src/core/Game.java:25:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'PLAYER_ONE' starts with uppercase character.
+src/core/Game.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:26:	FieldNamingConventions:	FieldNamingConventions: The static field name 'PLAYER_TWO' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Game.java:26:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Game.java:26:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'PLAYER_TWO' is not final.
+src/core/Game.java:26:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'PLAYER_TWO' starts with uppercase character.
+src/core/Game.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:27:	FieldNamingConventions:	FieldNamingConventions: The static field name 'DARK' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Game.java:27:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Game.java:27:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'DARK' starts with uppercase character.
+src/core/Game.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:28:	FieldNamingConventions:	FieldNamingConventions: The static field name 'LIGHT' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Game.java:28:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/core/Game.java:28:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'LIGHT' starts with uppercase character.
+src/core/Game.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:31:	FieldNamingConventions:	FieldNamingConventions: The static field name 'single_instance' doesn't match '[a-z][a-zA-Z0-9]*'
+src/core/Game.java:31:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'single_instance'
+src/core/Game.java:31:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'single_instance' is not final.
+src/core/Game.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:42:	NonThreadSafeSingleton:	NonThreadSafeSingleton: Singleton is not thread safe
+src/core/Game.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:48:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/core/Game.java:48:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'ArrayList'; use the interface instead
+src/core/Game.java:49:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:49:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/core/Game.java:50:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:50:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/core/Game.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'board' is not assigned and could be declared final
+src/core/Game.java:59:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Game.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'players' is not assigned and could be declared final
+src/core/Game.java:71:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Game.java:93:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Game.java:94:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Game.java:101:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:106:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'askname' could be declared final
+src/core/Game.java:107:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/core/Game.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'player' could be declared final
+src/core/Game.java:122:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:123:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/core/Game.java:126:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/core/Game.java:135:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'currentPlayer' is not assigned and could be declared final
+src/core/Game.java:137:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Game.java:142:	AvoidUsingVolatile:	AvoidUsingVolatile: Use of modifier volatile is not recommended.
+src/core/Game.java:142:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the pressed field if you want a default access modifier
+src/core/Game.java:142:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Game.java:142:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/core/Game.java:142:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/core/Game.java:142:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'pressed'
+src/core/Game.java:144:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:146:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/core/Game.java:147:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/core/Game.java:148:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'font' could be declared final
+src/core/Game.java:149:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'button' could be declared final
+src/core/Game.java:154:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/core/Game.java:154:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/core/Game.java:162:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'label' could be declared final
+src/core/Game.java:164:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonSize' could be declared final
+src/core/Game.java:165:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelSize' could be declared final
+src/core/Game.java:166:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonWidth' could be declared final
+src/core/Game.java:167:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonHeight' could be declared final
+src/core/Game.java:168:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelWidth' could be declared final
+src/core/Game.java:169:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelHeight' could be declared final
+src/core/Game.java:188:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Waiting" appears 5 times in this file; the first occurrence is on line 188
+src/core/Game.java:188:	SystemPrintln:	SystemPrintln: System.out.print is used
+src/core/Game.java:195:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:197:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Instructions" appears 4 times in this file; the first occurrence is on line 197
+src/core/Game.java:197:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/core/Game.java:198:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/core/Game.java:199:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'button' could be declared final
+src/core/Game.java:205:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/core/Game.java:205:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/core/Game.java:213:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'headLabel' could be declared final
+src/core/Game.java:214:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'descriptionLabel' could be declared final
+src/core/Game.java:217:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonSize' could be declared final
+src/core/Game.java:218:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelSize' could be declared final
+src/core/Game.java:219:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonWidth' could be declared final
+src/core/Game.java:220:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonHeight' could be declared final
+src/core/Game.java:221:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelWidth' could be declared final
+src/core/Game.java:222:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelHeight' could be declared final
+src/core/Game.java:227:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Game.java:244:	SystemPrintln:	SystemPrintln: System.out.print is used
+src/core/Game.java:251:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:253:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/core/Game.java:254:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/core/Game.java:256:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'button' could be declared final
+src/core/Game.java:262:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/core/Game.java:262:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/core/Game.java:270:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'headLabel' could be declared final
+src/core/Game.java:272:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'descriptionLabel' could be declared final
+src/core/Game.java:275:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonSize' could be declared final
+src/core/Game.java:276:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelSize' could be declared final
+src/core/Game.java:277:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonWidth' could be declared final
+src/core/Game.java:278:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonHeight' could be declared final
+src/core/Game.java:279:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelWidth' could be declared final
+src/core/Game.java:280:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelHeight' could be declared final
+src/core/Game.java:285:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Game.java:302:	SystemPrintln:	SystemPrintln: System.out.print is used
+src/core/Game.java:310:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:312:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/core/Game.java:313:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/core/Game.java:315:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'button' could be declared final
+src/core/Game.java:321:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/core/Game.java:321:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/core/Game.java:329:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'headLabel' could be declared final
+src/core/Game.java:331:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'descriptionLabel' could be declared final
+src/core/Game.java:334:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonSize' could be declared final
+src/core/Game.java:335:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelSize' could be declared final
+src/core/Game.java:336:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonWidth' could be declared final
+src/core/Game.java:337:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonHeight' could be declared final
+src/core/Game.java:338:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelWidth' could be declared final
+src/core/Game.java:339:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelHeight' could be declared final
+src/core/Game.java:344:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Game.java:361:	SystemPrintln:	SystemPrintln: System.out.print is used
+src/core/Game.java:369:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:371:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/core/Game.java:372:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/core/Game.java:373:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonFont' could be declared final
+src/core/Game.java:374:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'button' could be declared final
+src/core/Game.java:381:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/core/Game.java:381:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/core/Game.java:389:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'headLabel' could be declared final
+src/core/Game.java:391:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'descriptionLabel' could be declared final
+src/core/Game.java:394:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonSize' could be declared final
+src/core/Game.java:395:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelSize' could be declared final
+src/core/Game.java:396:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonWidth' could be declared final
+src/core/Game.java:397:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buttonHeight' could be declared final
+src/core/Game.java:398:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelWidth' could be declared final
+src/core/Game.java:399:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelHeight' could be declared final
+src/core/Game.java:404:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Game.java:421:	SystemPrintln:	SystemPrintln: System.out.print is used
+src/core/Game.java:429:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:431:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/core/Game.java:432:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/core/Game.java:434:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'label' could be declared final
+src/core/Game.java:436:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelSize' could be declared final
+src/core/Game.java:437:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelWidth' could be declared final
+src/core/Game.java:438:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labelHeight' could be declared final
+src/core/Game.java:456:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
+src/core/Game.java:459:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
+src/core/Game.java:462:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
+src/core/Game.java:465:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
+src/core/Game.java:468:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
+src/core/Game.java:472:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/core/Game.java:482:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:482:	MissingOverride:	MissingOverride: The method 'hashCode()' is missing an @Override annotation.
+src/core/Game.java:487:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:487:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/core/Game.java:487:	MissingOverride:	MissingOverride: The method 'equals(Object)' is missing an @Override annotation.
+src/core/Game.java:489:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Game.java:492:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Game.java:495:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Game.java:497:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/core/Game.java:502:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Game.java:502:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/core/Player.java:6:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/core/Player.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/core/Player.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Player.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Player.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/core/Player.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/core/Player.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'discColor' is not assigned and could be declared final
+src/core/Player.java:27:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Player.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'score' is not assigned and could be declared final
+src/core/Player.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Player.java:41:	MissingOverride:	MissingOverride: The method 'hashCode()' is missing an @Override annotation.
+src/core/Player.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Player.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/core/Player.java:46:	MissingOverride:	MissingOverride: The method 'equals(Object)' is missing an @Override annotation.
+src/core/Player.java:48:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/core/Player.java:51:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Player.java:54:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/core/Player.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/core/Player.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/core/Player.java:61:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/othello/Othello.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/othello/Othello.java:6:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/othello/Othello.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/othello/Othello.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/othello/Othello.java:13:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'game' could be declared final
+src/userInterface/BoardUi.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/userInterface/BoardUi.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/userInterface/BoardUi.java:18:	DataClass:	DataClass: The class 'BoardUi' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=8, WMC=25)
+src/userInterface/BoardUi.java:18:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/userInterface/BoardUi.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:19:	FieldNamingConventions:	FieldNamingConventions: The static field name 'DARK' doesn't match '[a-z][a-zA-Z0-9]*'
+src/userInterface/BoardUi.java:19:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/userInterface/BoardUi.java:19:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'DARK' starts with uppercase character.
+src/userInterface/BoardUi.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:20:	FieldNamingConventions:	FieldNamingConventions: The static field name 'LIGHT' doesn't match '[a-z][a-zA-Z0-9]*'
+src/userInterface/BoardUi.java:20:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/userInterface/BoardUi.java:20:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'LIGHT' starts with uppercase character.
+src/userInterface/BoardUi.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:22:	FieldNamingConventions:	FieldNamingConventions: The static field name 'PLAYER_ONE' doesn't match '[a-z][a-zA-Z0-9]*'
+src/userInterface/BoardUi.java:22:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'PLAYER_ONE'
+src/userInterface/BoardUi.java:22:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/userInterface/BoardUi.java:22:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'PLAYER_ONE' is not final.
+src/userInterface/BoardUi.java:22:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'PLAYER_ONE' starts with uppercase character.
+src/userInterface/BoardUi.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:23:	FieldNamingConventions:	FieldNamingConventions: The static field name 'PLAYER_TWO' doesn't match '[a-z][a-zA-Z0-9]*'
+src/userInterface/BoardUi.java:23:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/userInterface/BoardUi.java:23:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'PLAYER_TWO' is not final.
+src/userInterface/BoardUi.java:23:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'PLAYER_TWO' starts with uppercase character.
+src/userInterface/BoardUi.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:24:	FieldNamingConventions:	FieldNamingConventions: The static field name 'ROWS' doesn't match '[a-z][a-zA-Z0-9]*'
+src/userInterface/BoardUi.java:24:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/userInterface/BoardUi.java:24:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'ROWS' starts with uppercase character.
+src/userInterface/BoardUi.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:25:	FieldNamingConventions:	FieldNamingConventions: The static field name 'COLUMNS' doesn't match '[a-z][a-zA-Z0-9]*'
+src/userInterface/BoardUi.java:25:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/userInterface/BoardUi.java:25:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'COLUMNS' starts with uppercase character.
+src/userInterface/BoardUi.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:27:	NonSerializableClass:	NonSerializableClass: The field 'listener' of serializable class 'userInterface.BoardUi' is of non-serializable type 'userInterface.BoardUi$BoardListener'.
+src/userInterface/BoardUi.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:28:	NonSerializableClass:	NonSerializableClass: The field 'g' of serializable class 'userInterface.BoardUi' is of non-serializable type 'core.Game'.
+src/userInterface/BoardUi.java:28:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/userInterface/BoardUi.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/BoardUi.java:31:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/userInterface/BoardUi.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/BoardUi.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/userInterface/BoardUi.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'gUi' is not assigned and could be declared final
+src/userInterface/BoardUi.java:31:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/userInterface/BoardUi.java:39:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/userInterface/BoardUi.java:40:	ShortVariable:	ShortVariable: Avoid variables with short names like j
+src/userInterface/BoardUi.java:69:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/userInterface/BoardUi.java:69:	CommentRequired:	CommentRequired: Class comments are required
+src/userInterface/BoardUi.java:72:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/userInterface/BoardUi.java:72:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/userInterface/BoardUi.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'button' could be declared final
+src/userInterface/BoardUi.java:76:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/userInterface/BoardUi.java:76:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'row' could be declared final
+src/userInterface/BoardUi.java:77:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/userInterface/BoardUi.java:77:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'col' could be declared final
+src/userInterface/BoardUi.java:79:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:83:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/BoardUi.java:83:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/userInterface/BoardUi.java:87:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/BoardUi.java:88:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'discs' (lines '88'-'113').
+src/userInterface/BoardUi.java:88:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'discs' could be declared final
+src/userInterface/BoardUi.java:89:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'disc' (lines '89'-'100').
+src/userInterface/BoardUi.java:89:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'disc' (lines '89'-'96').
+src/userInterface/BoardUi.java:89:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'disc' (lines '89'-'113').
+src/userInterface/BoardUi.java:89:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'disc' is never used (overwritten on lines 96 and 100)
+src/userInterface/BoardUi.java:96:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/userInterface/BoardUi.java:96:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:100:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/userInterface/BoardUi.java:100:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:104:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/userInterface/BoardUi.java:105:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/userInterface/BoardUi.java:111:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:111:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:111:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:112:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:112:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:112:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:115:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/BoardUi.java:115:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'col' is not assigned and could be declared final
+src/userInterface/BoardUi.java:115:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/userInterface/BoardUi.java:115:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'row' is not assigned and could be declared final
+src/userInterface/BoardUi.java:117:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/BoardUi.java:120:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isvld' (lines '120'-'123').
+src/userInterface/BoardUi.java:122:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:129:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/BoardUi.java:130:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/userInterface/BoardUi.java:130:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:131:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/BoardUi.java:131:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/userInterface/BoardUi.java:131:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:133:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/BoardUi.java:133:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/userInterface/BoardUi.java:133:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/BoardUi.java:139:	MethodReturnsInternalArray:	MethodReturnsInternalArray: Returning 'brd' may expose an internal array.
+src/userInterface/BoardUi.java:142:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'brd' is not assigned and could be declared final
+src/userInterface/BoardUi.java:142:	UseVarargs:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/userInterface/BoardUi.java:143:	ArrayIsStoredDirectly:	ArrayIsStoredDirectly: The user-supplied array 'brd' is stored directly.
+src/userInterface/BoardUi.java:150:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'listener' is not assigned and could be declared final
+src/userInterface/BoardUi.java:152:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/BoardUi.java:161:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/userInterface/BoardUi.java:161:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/userInterface/BoardUi.java:163:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/BoardUi.java:172:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'gUi' is not assigned and could be declared final
+src/userInterface/BoardUi.java:174:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/BoardUi.java:181:	AvoidFinalLocalVariable:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/userInterface/BoardUi.java:189:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/userInterface/BoardUi.java:191:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/BoardUi.java:193:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/userInterface/BoardUi.java:194:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/BoardUi.java:194:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/userInterface/BoardUi.java:195:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/userInterface/BoardUi.java:196:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/BoardUi.java:196:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/userInterface/BoardUi.java:197:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/userInterface/GameUi.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/userInterface/GameUi.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/userInterface/GameUi.java:11:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/userInterface/GameUi.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/GameUi.java:12:	FieldNamingConventions:	FieldNamingConventions: The static field name 'PLAYER_ONE' doesn't match '[a-z][a-zA-Z0-9]*'
+src/userInterface/GameUi.java:12:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'PLAYER_ONE'
+src/userInterface/GameUi.java:12:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/userInterface/GameUi.java:12:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'PLAYER_ONE' is not final.
+src/userInterface/GameUi.java:12:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'PLAYER_ONE' starts with uppercase character.
+src/userInterface/GameUi.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/GameUi.java:13:	FieldNamingConventions:	FieldNamingConventions: The static field name 'PLAYER_TWO' doesn't match '[a-z][a-zA-Z0-9]*'
+src/userInterface/GameUi.java:13:	SuspiciousConstantFieldName:	SuspiciousConstantFieldName: The field name indicates a constant but its modifiers do not
+src/userInterface/GameUi.java:13:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'PLAYER_TWO' is not final.
+src/userInterface/GameUi.java:13:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'PLAYER_TWO' starts with uppercase character.
+src/userInterface/GameUi.java:14:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/userInterface/GameUi.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/GameUi.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'game' is not assigned and could be declared final
+src/userInterface/GameUi.java:16:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/GameUi.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/GameUi.java:22:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/userInterface/GameUi.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/GameUi.java:23:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/userInterface/GameUi.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/GameUi.java:24:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/userInterface/GameUi.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/GameUi.java:25:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/userInterface/GameUi.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/GameUi.java:26:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/userInterface/GameUi.java:26:	ImmutableField:	ImmutableField: Private field 'game' could be made final; it is only initialized in the declaration or constructor.
+src/userInterface/GameUi.java:26:	NonSerializableClass:	NonSerializableClass: The field 'game' of serializable class 'userInterface.GameUi' is of non-serializable type 'core.Game'.
+src/userInterface/GameUi.java:34:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'discOne' could be declared final
+src/userInterface/GameUi.java:37:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:37:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:41:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'discTwo' could be declared final
+src/userInterface/GameUi.java:44:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:44:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:46:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/userInterface/GameUi.java:47:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/userInterface/GameUi.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:56:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:56:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/userInterface/GameUi.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/GameUi.java:71:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/GameUi.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nameOne' is not assigned and could be declared final
+src/userInterface/GameUi.java:73:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/GameUi.java:78:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/GameUi.java:82:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/GameUi.java:82:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nameTwo' is not assigned and could be declared final
+src/userInterface/GameUi.java:84:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/GameUi.java:93:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scoreOne' is not assigned and could be declared final
+src/userInterface/GameUi.java:95:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/GameUi.java:104:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'scoreTwo' is not assigned and could be declared final
+src/userInterface/GameUi.java:106:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/GameUi.java:117:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/userInterface/GameUi.java:119:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/GameUi.java:121:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/userInterface/GameUi.java:122:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/GameUi.java:122:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/userInterface/GameUi.java:123:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/userInterface/GameUi.java:124:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/GameUi.java:124:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/userInterface/GameUi.java:125:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/userInterface/OthelloUi.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/userInterface/OthelloUi.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/userInterface/OthelloUi.java:10:	DataClass:	DataClass: The class 'OthelloUi' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=6, WMC=23)
+src/userInterface/OthelloUi.java:10:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/userInterface/OthelloUi.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/OthelloUi.java:12:	NonSerializableClass:	NonSerializableClass: The field 'g' of serializable class 'userInterface.OthelloUi' is of non-serializable type 'core.Game'.
+src/userInterface/OthelloUi.java:12:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/userInterface/OthelloUi.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/OthelloUi.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/userInterface/OthelloUi.java:16:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/userInterface/OthelloUi.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/userInterface/OthelloUi.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/userInterface/OthelloUi.java:16:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/userInterface/OthelloUi.java:18:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/OthelloUi.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/userInterface/OthelloUi.java:43:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/userInterface/OthelloUi.java:45:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/OthelloUi.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'gUi' is not assigned and could be declared final
+src/userInterface/OthelloUi.java:56:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/OthelloUi.java:65:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'boardUi' is not assigned and could be declared final
+src/userInterface/OthelloUi.java:67:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/OthelloUi.java:78:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/userInterface/OthelloUi.java:80:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/userInterface/OthelloUi.java:82:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/userInterface/OthelloUi.java:83:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/OthelloUi.java:83:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/userInterface/OthelloUi.java:84:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/userInterface/OthelloUi.java:85:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/userInterface/OthelloUi.java:85:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/userInterface/OthelloUi.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
